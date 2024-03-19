@@ -13,3 +13,7 @@ Create simulated data
 Load simulated data into clickhouse
 
     make load
+
+The python script generates simulated data for N patients.  For example:
+
+    python3 sim.py 1000 > data.tsv
