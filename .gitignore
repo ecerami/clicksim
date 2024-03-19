@@ -3,3 +3,8 @@ metadata
 preprocessed_configs
 status
 uuid
+data
+store
+data.tsv
+metadata_dropped
+__pycache__

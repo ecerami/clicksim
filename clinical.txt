@@ -1,0 +1,8 @@
+clinical_attribute_id	belongs_to	attribute_type	min	max	options
+age_at_sequencing	patient	continuous	0	100	NA
+sex	patient	discrete	NA	NA	male|female
+mutation_count	sample	continuous	0	20000	NA
+fraction_genome_altered	sample	continuous	0	100	NA
+center	patient	discrete	NA	NA	MSK|DFCI|UCSF|DUKE
+oncotree_code	patient	discrete	NA	NA	LUAD|COAD|IDC|PAAD|PRAD
+sample_type	sample	discrete	NA	NA	Primary|Metastasis|Unspecified
