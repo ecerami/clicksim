@@ -2,6 +2,9 @@
 
 Experimental scripts to generate simulated cBioPortal data for import to ClickHouse.
 
+Note that this script currently only creates simulated mutation and copy number data,
+assuming a gene panel of ~500 genes.
+
 Create new clickhouse database:
 
     make init
